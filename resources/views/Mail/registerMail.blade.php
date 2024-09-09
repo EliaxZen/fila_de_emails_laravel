@@ -1,1 +1,1 @@
-<h1>Seja bem vido filho</h1>
+<h1>Seja bem vido, {{ $nome }}</h1>
