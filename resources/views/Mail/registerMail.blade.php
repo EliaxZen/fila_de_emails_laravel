@@ -1,4 +1,14 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bem-vindo</title>
+</head>
+<!-- O wrapper foi movido para uma table para compatibilidade -->
+<body style="background-color:#f4f4f4;">
+  <center>
     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:#f4f4f4;">
       <tr>
         <td align="center" style="padding:10px 0;">
@@ -36,3 +46,6 @@
         </td>
       </tr>
     </table>
+  </center>
+</body>
+</html>
