@@ -16,7 +16,7 @@ class AuthMailController extends Controller
         $user = new User();
         $user->name = 'Elias Galvão';
 
-        $registerEmail = new RegisterMail($user->name);
+        $registerEmail = new RegisterMail($user);
 
         return $registerEmail;
 
