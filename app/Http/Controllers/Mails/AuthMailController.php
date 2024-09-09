@@ -13,6 +13,8 @@ class AuthMailController extends Controller
     public function sendRegisterMail(){
         $registerEmail = new RegisterMail();
 
-        Mail::to('galvaoalveselias@gmail.com')->send($registerEmail);
+        return $registerEmail;
+
+        //Mail::to('galvaoalveselias@gmail.com')->send($registerEmail);
     }
 }
